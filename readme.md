@@ -13,7 +13,6 @@ Real-time transcription of spoken language into text.
 Sentiment analysis to assess the emotional tone of the speech.
 Feedback generation based on sentiment and content to guide improvement.
 Integrated with Weights & Biases (WandB) for experiment tracking and visualization of metrics.
-Supports training on Amazon SageMaker for large-scale data processing and model training.
 ### How It Works
 Speech Input: The user provides speech input (audio file or real-time recording).
 Transcription (ASR): The Whisper model transcribes the audio into text.
@@ -23,7 +22,7 @@ Training and Monitoring: The training process is managed using AWS SageMaker, an
 ### Technologies Used
 Whisper (OpenAI): For speech-to-text transcription.
 Sentiment Analysis: Custom model or pre-trained sentiment models (e.g., BERT-based).
-AWS SageMaker: For large-scale training and model deployment.
+Gradio for UI.
 Weights & Biases (WandB): For experiment tracking and model performance visualization.
 ### Use Cases
 Personal Improvement: Helps users improve their speech delivery and emotional tone.
